@@ -1,0 +1,10 @@
+import numpy as np
+arr=np.array([1.1,2.1,3.4])
+# new=arr.astype('i')
+new=arr.astype(int)
+print(arr)
+print(new)
+print(new.dtype)
+arr1=np.array([0,1,2,0,1])
+new1=arr1.astype(bool)
+print(new1)
