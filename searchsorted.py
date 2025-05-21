@@ -1,0 +1,10 @@
+import numpy as np
+arr=np.array([1,2,3,4,5,6,7,8,9,10,11])
+x=np.searchsorted(arr,4)
+print(x)
+y=np.searchsorted(arr,15)
+print(y)
+z=np.searchsorted(arr,9,side='right')
+print(z)
+a=np.searchsorted(arr,[3,9])
+print(a)
